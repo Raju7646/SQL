@@ -132,6 +132,9 @@ insert into state_bank values
 (30,"technician","married","secondary","no",152,"yes","yes","unknown",5,"may",213,2,-1,0,"unknown","no"),
 (60,"admin.","married","secondary","no",290,"yes","no","unknown",5,"may",583,1,-1,0,"unknown","no")
 
+
+ANSWER=;
+
 select count(*) from state_bank
 select *from state_bank
 select job,marital from state_bank
